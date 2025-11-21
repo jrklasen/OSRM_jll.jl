@@ -1,4 +1,133 @@
 [[OSRM]]
+arch = "aarch64"
+git-tree-sha1 = "22ea61e57a592f5ecd6c535f0dfa3604542c4c4c"
+os = "macos"
+
+    [[OSRM.download]]
+    sha256 = "7a6d492a12059fe72a4fd9772e5dae26c7a135bf4522a9c7744a58b174dd0f43"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.aarch64-apple-darwin.tar.gz"
+[[OSRM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f7eec3634e87bba09859b270e66fd7c753998f18"
+libc = "glibc"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "70f7c466792b3e49e68da6e7365359a98a127d025eb2b77eebb0e54e88aa57e0"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[OSRM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a45da0e4f94a7fcc567de087963d77e10b585d67"
+libc = "musl"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "81053b1a3839253630b718b54a47e4ca40ca24cbbcdd142f0e2541e7895338c4"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.aarch64-linux-musl-cxx11.tar.gz"
+[[OSRM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b935324bf0dfbb7a0335175ccd87a2d15270c86c"
+libc = "glibc"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "48ce0889835577edd670174da8059c6f7c3b9581e11ebe2daf474d77ce405ec7"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[OSRM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b2a4a8e4549e76f14b7f4c1bae9667373e928ca6"
+libc = "musl"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "f1a16e2c6b9b373737a1c8f3b8d9f5a2eaefc9270b3653ed99c6ec1c83e0847e"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[OSRM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3edbc096942848ee3f815f462c59f5de399b3901"
+libc = "glibc"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "1cf6c2478a22ab2344292471d2bb59d761bb2c2bdc33a57a9b4101c5743ad2f8"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[OSRM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e0fafa09a0878c81fb484676754e192a93b1ecc9"
+libc = "musl"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "e8c5e8b444b21263d9a9936565d54c813040159f1a943f88fd1736414fd01d41"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[OSRM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1111511bb6e25effe931b1340933c025311a9325"
+libc = "glibc"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "cd8c98ccdae61073e2ed99fb11d260e7dba617097b42cf18b40e94c8beff6668"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.i686-linux-gnu-cxx11.tar.gz"
+[[OSRM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "de3474015df0c30dccca2cf9f1a68b769c5fbe7d"
+libc = "musl"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "4bf0b5949c1419e7d7255301be3e9d4824dd3d39033e21cf606d8bff9396caa4"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.i686-linux-musl-cxx11.tar.gz"
+[[OSRM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "31479ea3ab0f57cca5e167200448dfaeb8acb889"
+os = "windows"
+
+    [[OSRM.download]]
+    sha256 = "610004a928c04fed788a633fb2b65cc1a1d5bb54ede64b4e2af1da21c9b4a4ca"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.i686-w64-mingw32-cxx11.tar.gz"
+[[OSRM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ffcf1b7eb22adf5e281581a7b921c3a175a1bf8e"
+libc = "glibc"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "2c4a53b56adb62b209ef9694b880019b2d18d62c83f653d9dc682a61ed723fab"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[OSRM]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a53e54957d4e46c573b69761008756dc7e2148e3"
+libc = "glibc"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "7dd9538b1b1ff73e84ff1fabacaa2e8493f1c8f33b6a51d1b96ea75493c7efeb"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.riscv64-linux-gnu-cxx11.tar.gz"
+[[OSRM]]
+arch = "x86_64"
+git-tree-sha1 = "8145cb7ce03894af888353b2075056a838ab6c1f"
+os = "macos"
+
+    [[OSRM.download]]
+    sha256 = "fc88f5ac9f1ca5ff795e84508a18f0b302015640e6192248c77fda0b8e45a79b"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.x86_64-apple-darwin.tar.gz"
+[[OSRM]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "267ceef86ec877f4ad6041cbeba9ea276a994008"
@@ -8,3 +137,22 @@ os = "linux"
     [[OSRM.download]]
     sha256 = "0f4c43a63ee6a913cb8010558eb50927fb731eb0974e7e4a331463e60c4f59a7"
     url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[OSRM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4adefc8d8ee923e3b7e8714532dea2276776db55"
+libc = "musl"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "d9347d40f1bd22b734c87b06e2b205e81eebacecac6cb86cd2067044e421131e"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.x86_64-linux-musl-cxx11.tar.gz"
+[[OSRM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d3d3b5876ede198da4ea4aa86cb44ca80661b722"
+os = "windows"
+
+    [[OSRM.download]]
+    sha256 = "37a7b107be04f82a197520f7472b7df27ccdbf7938f27a1c8e602dc10e1cea55"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.x86_64-w64-mingw32-cxx11.tar.gz"
