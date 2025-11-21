@@ -1,0 +1,10 @@
+[[OSRM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "267ceef86ec877f4ad6041cbeba9ea276a994008"
+libc = "glibc"
+os = "linux"
+
+    [[OSRM.download]]
+    sha256 = "0f4c43a63ee6a913cb8010558eb50927fb731eb0974e7e4a331463e60c4f59a7"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/O/OSRM/products/OSRM.v6.0.0.x86_64-linux-gnu-cxx11.tar.gz"
