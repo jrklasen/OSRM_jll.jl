@@ -1,10 +1,10 @@
 [[OSRM]]
 arch = "aarch64"
-git-tree-sha1 = "22ea61e57a592f5ecd6c535f0dfa3604542c4c4c"
+git-tree-sha1 = "dfe3562cfcca9f0c281897da26f25d6d7d6dd521"
 os = "macos"
 
     [[OSRM.download]]
-    sha256 = "7a6d492a12059fe72a4fd9772e5dae26c7a135bf4522a9c7744a58b174dd0f43"
+    sha256 = "d5e077bf1884b1e96dec80d97a7d3e7cc5e9c8627b0da8800c6975dbacfbd333"
     url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.aarch64-apple-darwin.tar.gz"
 [[OSRM]]
 arch = "aarch64"
@@ -93,11 +93,11 @@ os = "linux"
 [[OSRM]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "31479ea3ab0f57cca5e167200448dfaeb8acb889"
+git-tree-sha1 = "eb0345b39f08a93d021fd29f0bc3313074d7994b"
 os = "windows"
 
     [[OSRM.download]]
-    sha256 = "610004a928c04fed788a633fb2b65cc1a1d5bb54ede64b4e2af1da21c9b4a4ca"
+    sha256 = "9edfdc8e7f367d306294771370b5bf5743b7394ff58711ba596cfc45e62eabd9"
     url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.i686-w64-mingw32-cxx11.tar.gz"
 [[OSRM]]
 arch = "powerpc64le"
@@ -121,11 +121,11 @@ os = "linux"
     url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.riscv64-linux-gnu-cxx11.tar.gz"
 [[OSRM]]
 arch = "x86_64"
-git-tree-sha1 = "8145cb7ce03894af888353b2075056a838ab6c1f"
+git-tree-sha1 = "d047ec0df3641ff6ce05cfb2d8e29c916b1ad332"
 os = "macos"
 
     [[OSRM.download]]
-    sha256 = "fc88f5ac9f1ca5ff795e84508a18f0b302015640e6192248c77fda0b8e45a79b"
+    sha256 = "b8a2bc8eb12038bd0fdda988fd00256ecdddb486df3fd996af353d75dc6a68cb"
     url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.x86_64-apple-darwin.tar.gz"
 [[OSRM]]
 arch = "x86_64"
@@ -150,9 +150,9 @@ os = "linux"
 [[OSRM]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d3d3b5876ede198da4ea4aa86cb44ca80661b722"
+git-tree-sha1 = "25811fea7580f41c525b0d6d09fcf4fe46a4fb2b"
 os = "windows"
 
     [[OSRM.download]]
-    sha256 = "37a7b107be04f82a197520f7472b7df27ccdbf7938f27a1c8e602dc10e1cea55"
+    sha256 = "48331cf53a758f37569702757d9404d68d7c254cd3798160fca132735d834fdc"
     url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.x86_64-w64-mingw32-cxx11.tar.gz"

@@ -11,8 +11,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 The tarballs for `OSRM_jll.jl` have been built from these sources:
 
 * git repository: https://github.com/Project-OSRM/osrm-backend.git (revision: `01605f7589e6fe68df3fc690ad001b687128aba7`)
-* files in directory, relative to originating `build_tarballs.jl`: `./bundled`
-* compressed archive: https://github.com/roblabla/MacOSX-SDKs/releases/download/13.3/MacOSX13.3.sdk.tar.xz (SHA256 checksum: `e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c`)
+* file: https://github.com/alexey-lysiuk/macos-sdk/releases/download/14.5/MacOSX14.5.tar.xz (SHA256 checksum: `f6acc6209db9d56b67fcaf91ec1defe48722e9eb13dc21fb91cfeceb1489e57e`)
 
 ## Platforms
 
