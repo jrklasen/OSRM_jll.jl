@@ -91,15 +91,6 @@ os = "linux"
     sha256 = "4bf0b5949c1419e7d7255301be3e9d4824dd3d39033e21cf606d8bff9396caa4"
     url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.i686-linux-musl-cxx11.tar.gz"
 [[OSRM]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "eb0345b39f08a93d021fd29f0bc3313074d7994b"
-os = "windows"
-
-    [[OSRM.download]]
-    sha256 = "9edfdc8e7f367d306294771370b5bf5743b7394ff58711ba596cfc45e62eabd9"
-    url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.i686-w64-mingw32-cxx11.tar.gz"
-[[OSRM]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "ffcf1b7eb22adf5e281581a7b921c3a175a1bf8e"
@@ -148,11 +139,20 @@ os = "linux"
     sha256 = "d9347d40f1bd22b734c87b06e2b205e81eebacecac6cb86cd2067044e421131e"
     url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.x86_64-linux-musl-cxx11.tar.gz"
 [[OSRM]]
-arch = "x86_64"
+arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "25811fea7580f41c525b0d6d09fcf4fe46a4fb2b"
+git-tree-sha1 = "a6f5f8c995e909f22c50a5fd22a0b8b344d1ebe2"
 os = "windows"
 
     [[OSRM.download]]
-    sha256 = "48331cf53a758f37569702757d9404d68d7c254cd3798160fca132735d834fdc"
+    sha256 = "4ab376fd1f2ab8f773b69add9186a84d31ff9a652fc16de52b91b7b67633eb65"
+    url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.i686-w64-mingw32-cxx11.tar.gz"
+[[OSRM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e64e3d8e4cbeb3dc1414062ca7753a764302e887"
+os = "windows"
+
+    [[OSRM.download]]
+    sha256 = "4e82d5e966ecbfb271731683f795556ccbfa9e70f41852ac965a6ed1d58177ba"
     url = "https://github.com/jrklasen/OSRM_jll.jl/releases/download/OSRM-v6.0.0+0/OSRM.v6.0.0.x86_64-w64-mingw32-cxx11.tar.gz"
