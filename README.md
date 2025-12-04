@@ -17,6 +17,20 @@ The tarballs for `OSRM_jll.jl` have been built from these sources:
 
 `OSRM_jll.jl` is available for the following platforms:
 
+* `macOS aarch64` (`aarch64-apple-darwin`)
+* `macOS x86_64` (`x86_64-apple-darwin`)
+* `Linux aarch64 {cxxstring_abi=cxx11}` (`aarch64-linux-gnu-cxx11`)
+* `Linux aarch64 {libc=musl, cxxstring_abi=cxx11}` (`aarch64-linux-musl-cxx11`)
+* `Linux armv6l {cxxstring_abi=cxx11}` (`armv6l-linux-gnueabihf-cxx11`)
+* `Linux armv6l {libc=musl, cxxstring_abi=cxx11}` (`armv6l-linux-musleabihf-cxx11`)
+* `Linux armv7l {cxxstring_abi=cxx11}` (`armv7l-linux-gnueabihf-cxx11`)
+* `Linux armv7l {libc=musl, cxxstring_abi=cxx11}` (`armv7l-linux-musleabihf-cxx11`)
+* `Linux i686 {cxxstring_abi=cxx11}` (`i686-linux-gnu-cxx11`)
+* `Linux i686 {libc=musl, cxxstring_abi=cxx11}` (`i686-linux-musl-cxx11`)
+* `Linux powerpc64le {cxxstring_abi=cxx11}` (`powerpc64le-linux-gnu-cxx11`)
+* `Linux riscv64 {cxxstring_abi=cxx11}` (`riscv64-linux-gnu-cxx11`)
+* `Linux x86_64 {cxxstring_abi=cxx11}` (`x86_64-linux-gnu-cxx11`)
+* `Linux x86_64 {libc=musl, cxxstring_abi=cxx11}` (`x86_64-linux-musl-cxx11`)
 * `Windows i686 {cxxstring_abi=cxx11}` (`i686-w64-mingw32-cxx11`)
 * `Windows x86_64 {cxxstring_abi=cxx11}` (`x86_64-w64-mingw32-cxx11`)
 
